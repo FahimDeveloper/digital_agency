@@ -210,3 +210,100 @@
     font-size: 20px;
     text-transform: capitalize;
 }
+
+.appointment_information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F52C2C;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.appointment_call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+
+.appointment_call .logo img {
+    width: 120px;
+}
+
+.appointment_call strong {
+    font-size: 25px;
+}
+
+.appointment_description p {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.appointment_button button {
+    border: none;
+    font-size: 17px;
+    padding: 10px;
+    text-transform: capitalize;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 25px;
+}
+
+.blogs_area {
+    padding: 40px 0 50px 0;
+}
+
+.blogs_area h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blogs_area .container>p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.blogs_area h2 span {
+    color: #F52C2C;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.blog_item {
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.blog_item:hover {
+    box-shadow: 4px 4px 10px grey;
+}
+
+.blog_item img {
+    width: 100%;
+}
+
+.blogs_content {
+    padding: 10px 20px 20px;
+}
+
+.blogs_content h4 {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.blogs_content p {
+    font-size: 17px;
+}
